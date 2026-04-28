@@ -1,35 +1,39 @@
 # Receptly Convai Wrapper
 
-Use this wrapper script to expose the ElevenLabs Convai widget as `<receptly-convai>`.
+This repository hosts the lightweight `receptly-convai.js` wrapper that
+creates a `<receptly-convai>` custom element and exposes a programmatic
+`mount()` API for embedding the ElevenLabs Convai widget.
 
-## Usage
+NOTE: this README intentionally does not include any agent IDs or
+other sensitive identifiers. Replace `YOUR_AGENT_ID` below with your
+own agent identifier when integrating.
+
+## Quick usage (declarative)
 
 ```html
-<script src="./receptly-convai.js"></script>
+<script src="./receptly-convai.js" defer></script>
 
-<receptly-convai agent-id="agent_4201kq8k58wre8vaxw9tsq6bc5sh"></receptly-convai>
+<receptly-convai agent-id="YOUR_AGENT_ID"></receptly-convai>
 ```
 
-You can place the element anywhere in the page after the wrapper script is loaded.
-
-## Mount into any container
+## Quick usage (imperative)
 
 ```html
 <div id="chat-slot"></div>
-<script src="./receptly-convai.js"></script>
+<script src="./receptly-convai.js" defer></script>
 <script>
   window.ReceptlyConvai.mount('#chat-slot', {
-    agentId: 'agent_4201kq8k58wre8vaxw9tsq6bc5sh',
-    label: 'Receptly-convai'
+    agentId: 'YOUR_AGENT_ID',
+    label: 'My chat'
   });
 </script>
 ```
 
-## Optional label
+## CDN
 
-```html
-<receptly-convai
-  agent-id="agent_4201kq8k58wre8vaxw9tsq6bc5sh"
-  label="Receptly-convai"
-></receptly-convai>
-```
+You can also serve `receptly-convai.js` from a CDN (jsDelivr, unpkg, etc.)
+—replace the `src` URL above with the hosted URL.
+
+## License
+
+Choose a license and add a `LICENSE` file before publishing publicly.
