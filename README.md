@@ -7,8 +7,7 @@ creates a `<receptly-convai>` custom element and exposes a programmatic
 `mount()` API for embedding the ElevenLabs Convai widget.
 
 NOTE: this README intentionally does not include any agent IDs or
-other sensitive identifiers. Replace `YOUR_AGENT_ID` below with your
-own agent identifier when integrating.
+other sensitive identifiers. Contact us at [Receptly](https://app.receptly.io) to get your agent id.
 
 ## Quick usage (declarative)
 
