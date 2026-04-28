@@ -1,3 +1,4 @@
+<img src="https://data.jsdelivr.com/v1/package/gh/Receptly/Receptly-convai/badge" alt="jsDelivr" />
 # Receptly Convai Wrapper
 
 This repository hosts the lightweight `receptly-convai.js` wrapper that
@@ -17,28 +18,6 @@ One-line version for copy/paste:
 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/Receptly/Receptly-convai@v1.0.1/receptly-convai.js" defer></script><receptly-convai agent-id="YOUR_AGENT_ID"></receptly-convai>
-```
-
-## CDN (jsDelivr)
-
-You can also load the bundle directly from jsDelivr. Use the badge below to show jsDelivr stats, and pick either a specific tag or `@latest` for the newest release.
-
-Badge (live stats):
-
-<img src="https://data.jsdelivr.com/v1/package/gh/Receptly/Receptly-convai/badge" alt="jsDelivr" />
-
-One-line (specific version):
-
-```html
-<script src="https://cdn.jsdelivr.net/gh/Receptly/Receptly-convai@v1.0.1/receptly-convai.js" defer></script>
-<receptly-convai agent-id="YOUR_AGENT_ID"></receptly-convai>
-```
-
-One-line (always latest):
-
-```html
-<script src="https://cdn.jsdelivr.net/gh/Receptly/Receptly-convai@latest/receptly-convai.js" defer></script>
-<receptly-convai agent-id="YOUR_AGENT_ID"></receptly-convai>
 ```
 
 ## Quick usage (imperative)
