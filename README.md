@@ -1,4 +1,5 @@
 <img src="https://data.jsdelivr.com/v1/package/gh/Receptly/Receptly-convai/badge" alt="jsDelivr" />
+
 # Receptly Convai Wrapper
 
 This repository hosts the lightweight `receptly-convai.js` wrapper that
