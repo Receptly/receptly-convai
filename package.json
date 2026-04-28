@@ -1,0 +1,17 @@
+{
+  "name": "receptly-convai",
+  "version": "1.0.0",
+  "description": "Lightweight wrapper around the ElevenLabs Convai widget.",
+  "main": "receptly-convai.js",
+  "jsdelivr": "receptly-convai.js",
+  "unpkg": "receptly-convai.js",
+  "files": [
+    "receptly-convai.js",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Receptly/Receptly-convai.git"
+  },
+  "homepage": "https://github.com/Receptly/Receptly-convai#readme"
+}

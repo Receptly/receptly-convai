@@ -31,8 +31,20 @@ own agent identifier when integrating.
 
 ## CDN
 
-You can also serve `receptly-convai.js` from a CDN (jsDelivr, unpkg, etc.)
-—replace the `src` URL above with the hosted URL.
+You can serve `receptly-convai.js` from jsDelivr once this repository has a
+GitHub release tag. Use a versioned URL for stable production usage:
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/Receptly/Receptly-convai@v1.0.0/receptly-convai.js" defer></script>
+```
+
+If you want the moving latest tag during development, use:
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/Receptly/Receptly-convai@latest/receptly-convai.js" defer></script>
+```
+
+This repository must be public for jsDelivr to serve it from GitHub.
 
 ## License
 
