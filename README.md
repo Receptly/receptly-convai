@@ -2,9 +2,7 @@
 
 # Receptly Convai Wrapper
 
-This repository hosts the lightweight `receptly-convai.js` wrapper that
-creates a `<receptly-convai>` custom element and exposes a programmatic
-`mount()` API for embedding the ElevenLabs Convai widget.
+This repository hosts the lightweight `receptly-convai.js` wrapper for embedding the ElevenLabs Convai widget.
 
 NOTE: this README intentionally does not include any agent IDs or
 other sensitive identifiers. Contact us at [Receptly](https://app.receptly.io) to get your agent id.
